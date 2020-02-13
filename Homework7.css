@@ -168,12 +168,11 @@ p {
     position: fixed;
 }
 
-.popular>.container>h2 {
+.popular>h2 {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 120px;
-    font-family: Lato;
     font-size: 36px;
     font-weight: bold;
     font-stretch: normal;
@@ -182,7 +181,7 @@ p {
     letter-spacing: normal;
     color: #313e5d;
 }
-.popular>.container>p {
+.popular>p {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -194,4 +193,28 @@ p {
     line-height: normal;
     letter-spacing: normal;
     color: #313e5d;
+    padding-bottom: 50px;
+}
+.popular__items{
+    display: flex;
+    justify-content: space-around;
+}
+.popular__items_element{
+   padding-right:20px ;
+
+}
+.popular__items_element_text{
+    background: white;
+}
+.popular__items_element_text>h6 {
+    width: 177px;
+    height: 29px;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #313e5d;
+    padding: 0;
 }
